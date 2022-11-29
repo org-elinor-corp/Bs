@@ -1,6 +1,6 @@
 window.addEventListener('scroll',function(){
    var scro=window.scrollY;
-      console.log(scro);
+      
       if (scro >= 200){
          this.document.getElementById('headder').className='active';
          this.document.getElementById('logo').classList="active";
@@ -14,7 +14,25 @@ window.addEventListener('scroll',function(){
       }
       
    })
-   this.document.getElementById('icon').addEventListener(onclick,ShowMenu);
-      function ShowMenu(){     
+function ShowMenu(){     
         document.getElementById('main').style.top = (document.getElementById('main').style.top  == '-150%') ? '20px' : '-150%';
-      }
+   }
+   var slider=document.getElementById("review-silde");
+   let slideleft =document.querySelector("#slide-left");
+   let slideright =document.querySelector("#slide-right");
+   slideright.onclick =ReviewSlideright;
+   slideleft.onclick =ReviewSlideleft;
+   function ReviewSlideleft(){
+      if( slider.className=='one')
+         slider.className='two';
+
+      console.log("slide left");    
+   }
+   function ReviewSlideright(){
+      if( slider.className=='two')
+         slider.className='one';
+      
+      console.log("slide right"); 
+   }
+   
+   
