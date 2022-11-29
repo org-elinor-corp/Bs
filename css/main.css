@@ -465,7 +465,7 @@ section#fetured .left.active{
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-blend-mode: color-burn;
-            background-color: rgba(0, 0, 0, 0.876)  ;
+            background-color: rgba(0, 0, 0, 0.76)  ;
             align-items: center;
         }
         section#hero{
