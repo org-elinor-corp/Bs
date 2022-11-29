@@ -496,9 +496,10 @@ section#fetured .left.active{
      padding-bottom: 3vh;
      padding-top: 3vh;
      }
-     section#hero .left{
-        
-     }
+     main {
+        font-size: 11vw;
+    }
+    
     section#hero .left h3{
         text-align: center;
         font-size: 6vw;
@@ -516,13 +517,25 @@ section#fetured .left.active{
     }
     section#fetured{
         align-items: center;
-    height: 80vw;
-    padding-left: 2vw;
+        height: 90vw;
+        padding-left: 2vw;
+        padding-bottom: 8vw;
     }
     section#fetured .right{
         width: 87%;
         position: relative;
         left: 9vw;
+        top: 9vw;
+    }
+    section#fetured .right::before
+    {
+        content: 'Fetured';
+        font-size: 9vw;
+        color: #D6D6E7;
+        position: absolute;
+        left: 26vw;;
+        z-index: -2;
+        top: -8vw;
     }
     .right .line .but-box{
         width: 50%;
@@ -530,5 +543,11 @@ section#fetured .left.active{
         padding: 2vw;
         padding-left: 0px;
         padding-right: 9vw;
+    }
+    figure.one{
+        left: -50px;
+    }
+    figure.two{
+        left: -85vw;
     }
 }
