@@ -8,8 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Playfair+Display&display=swap" rel="stylesheet">
-    <script src="./js/main.js" type="text/javascript"></script>
-
 </head>
 <body>
     <master id="headder">
@@ -85,7 +83,12 @@
     </section><!--end of fetured section-->
     <!--testomoials section-->
     <section id="testomonial">
+        <div class="slidebutton" id="slide-left"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="midblock">
+        <h2>Reviews</h2>
             <div class="review-container">
+                <figure id="review-silde" class="one">
+                <div class="review-slider-box">
                 <div class="img"></div>
                 <div class="review-box">
                     I am so satisfied with everything from Beauty secreats. Thank you!
@@ -96,10 +99,25 @@
                         <i class="fa-solid fa-star" style="color:rgb(255, 196, 0)"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                </div>  
-                
+                    </div> 
+                </div> <!--sider box one-->
+                <div class="review-slider-box">
+                    <div class="img"></div>
+                    <div class="review-box">
+                       Pavangokul. Thank you!
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star" style="color:rgb(255, 196, 0)"></i>
+                            <i class="fa-solid fa-star" style="color:rgb(255, 196, 0)"></i>
+                            <i class="fa-solid fa-star" style="color:rgb(255, 196, 0)"></i>
+                            <i class="fa-solid fa-star" style="color:rgb(255, 196, 0)"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        </div> 
+                    </div> <!--sider box two-->
+                    </figure>
+                </div>
             </div> 
-
+            <div class="slidebutton" id="slide-right"><i class="fa-solid fa-angle-right"></i></div>
     </section>
       
     <section id="contact">
@@ -112,5 +130,7 @@
     <master id="footer">
         
     </master>
+    <!--Scripts-->
+    <script src="./js/main.js" type="text/javascript"></script>
 </body>
 </html>

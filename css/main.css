@@ -66,9 +66,10 @@ main{
     transition: 1s;
     animation-fill-mode: both;
 }
-    menu:hover{
+    main menu:hover{
         font-weight: bold;
         color:var(--FontColorWhite);
+        box-shadow:var(--FontColorGold) 20px 22px 0px -15px;
     }
     #logo{
     position: relative;
@@ -303,6 +304,7 @@ section#fetured .right{
     align-items: center;
     justify-content: center; 
     --hover:none;
+    cursor: pointer;
 }
 .right .img.lip{
     background-image: url(../assts/lips.png);
@@ -336,33 +338,82 @@ section#fetured .left.active{
     }
     /* Review Section*/
     section#testomonial{
-        height: 55vw;
+        height:max-content;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content:center;
         background-color:var(--FontColorGold);
         padding-bottom: 3vw;
     }
-    .review-container{
-        width:70vw;
-        height:100%;
+    section#testomonial .slidebutton{
+        height:10vw;
+        width:100%;
         display: flex;
-        flex-direction: column;
-        align-items:center;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        color: #D6D6E7;
+        font-size: 10vw;
+        position: relative;
+        top:8vw;
+        cursor: pointer;
+    }
+    .midblock{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
         justify-content:center;
     }
-    .review-container .img{
-        background-color: #D6D6E7;
-        --SIZE: 18vw;
-        height: var(--SIZE);
-        width: 17.5vw;
+    section#testomonial h2{
         position: relative;
-        top: 10%;
+        top: 3vw;
+        font-size: 4vw;
+    }
+    .review-container{
+        width: 75vw;
+        height: 100%;
+        overflow-y: hidden;
+    }
+    figure{
+        position: relative;
+        width:max-content;
+        height: 100%;
+        display: -webkit-inline-box;
+        align-items: start;
+        transition: 0.7s;
+    }
+    figure.one{
+        left: -7vw;
+    }
+    figure.two{
+        left: -82vw;
+    }
+    .review-container .review-slider-box{
+    width: 72vw;
+    height: 100%;
+    display: flex;
+    padding-left: 4vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .review-container .review-slider-box .img{
+        background-color: #D6D6E7;
+        --SIZE: 16vw;
+        height: var(--SIZE);
+        width: 16.5vw;
+        position: relative;
+        top: 7vw;
         border-radius: 100%;
         box-shadow: rgb(0 0 0 / 52%) 2px 14px 21px -4px;
     } 
+    .review-container .img{
+        background-color: #000;
+        background-image: url(../assts/reviewpic_1.jpg);
+        background-size: cover;
+    }
     .review-box{
-        width: 100%;
+        width: 63vw;
         height: 32vw;
        display: flex;
        flex-direction: column;
@@ -418,6 +469,7 @@ section#fetured .left.active{
             height: 100%;
             width: 100%;
             background-image: url(../assts/herobg.png);
+            background-size: 100%;
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-blend-mode: color-burn;
