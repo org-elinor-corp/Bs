@@ -314,7 +314,7 @@ section#fetured .right{
     cursor: pointer;
 }
 .right .img.lip{
-    background-image: url(../assts/lips.png);
+    background-image: url(../assts/lips.jpeg);
 }
 .right .img.eyes{
     background-image: url(../assts/eye.jpeg)
@@ -417,6 +417,7 @@ section#fetured .left.active{
         background-color: #000;
         background-image: url(../assts/reviewpic_1.jpeg);
         background-size: cover;
+        background-position: center;
     }
     .review-box{
         width: 63vw;
@@ -464,6 +465,7 @@ section#fetured .left.active{
     section#About .container .img{
         background-image: url(../assts/reviewpic_1.jpeg);
         background-size: cover;
+        background-position: center;
         --size:25vw;
         height: var(--size);
         width: var(--size);
