@@ -76,7 +76,7 @@ main{
     animation-duration: 1s;
     animation-timing-function: ease-in-out; 
     height:6vh;
-    background-image: url(../assts/Bslogo.png);
+    background-image: url(../assts/Bslogo.svg);
     width:30vw;
     background-size: auto 100%;
     transition: 0.7s;
