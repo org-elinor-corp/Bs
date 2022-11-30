@@ -12,9 +12,17 @@
     scroll-behavior: smooth;
     scroll-snap-align:start;
 }
-body{
-    margin: 0;
+html{
     
+    height: -webkit-fill-available;
+}
+body{
+  
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+   overflow: scroll;
     background-color:var(--HeadderColor);
     -webkit-overflow-scrolling: touch;
     
@@ -429,7 +437,7 @@ section#fetured .left.active{
     }
     /* ======================section-about==================*/
     section#About{
-        position: absolute;
+       
         width: 100vw;
         display: flex;
         align-items: center;
