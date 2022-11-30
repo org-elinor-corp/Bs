@@ -5,11 +5,13 @@
     --FontColorWhite:#fff;
     --HeadderColor:#00566d;
     font-family: 'Playfair Display', serif; 
-    scroll-behavior: smooth;
     text-decoration: none;
     background-repeat: no-repeat;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
