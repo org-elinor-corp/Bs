@@ -407,7 +407,7 @@ section#fetured .left.active{
     } 
     .review-container .img{
         background-color: #000;
-        background-image: url(../assts/reviewpic_1.jpg);
+        background-image: url(../assts/reviewpic_1.jpeg);
         background-size: cover;
     }
     .review-box{
@@ -454,7 +454,7 @@ section#fetured .left.active{
     }
  
     section#About .container .img{
-        background-image: url(../assts/reviewpic_1.jpg);
+        background-image: url(../assts/reviewpic_1.jpeg);
         background-size: cover;
         --size:25vw;
         height: var(--size);
