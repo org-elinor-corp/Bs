@@ -487,7 +487,50 @@ section#fetured .left.active{
     section#About .container .content p{
         font-size: 2vw;
     }
+    /*contact*/
+   section#contact{
+        height:100vh;
+        background-color:#fff;
+        border-bottom: solid 2px #000;
+    }
+    section#contact h1{
+        color:black;
+        text-align:  center;
+        margin-block-start: 2vw;
+        margin-block-end: 2vw;
+    }
+    section#contact .icon{
+    background-color:var(--FontColorGold);
+    --size: 9vw;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: #00566d;
+    }
+    section#contact #map{
+        background-color:  #bebebe;
+        height:80%;
+    }
+    section#contact #icon-container{
+        position: relative;
+        top: -5vw;
+      
+    }
+    section#contact .icon-box{
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    section#contact #bottom {
+        background: #fff;
+    }
     
+
     /* breakpoint at 1000px: */
 @media screen and (max-width: 1000px) {
     h1 {
