@@ -14,6 +14,7 @@
 body{
     margin: 0;
     scroll-behavior: smooth;
+    background-color:var(--HeadderColor);
 }
 *::-webkit-scrollbar{
     display: none;
@@ -420,8 +421,65 @@ section#fetured .left.active{
     .review-box .review-stars{
         font-size:3.5vw;
     }
+    /* ======================section-about==================*/
+    section#About{
+        position: absolute;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-image:url(../assts/Bslogo\ copy.svg);
+        height: 100vw;
+        background-size: 10em;
+        background-repeat:round;
+    background-attachment:fixed;
+    background-blend-mode: color-burn;
+    background-color: rgba(3, 29, 53, 0.418);
+   }
+   section#About h1{
+    text-shadow: #000 0.3vw 0.4vw 0.2vw;
+   }
+   section#About .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 85vw;
+    }
+ 
+    section#About .container .img{
+        background-image: url(../assts/reviewpic_1.jpg);
+        background-size: cover;
+        --size:25vw;
+        height: var(--size);
+        width: var(--size);
+        border-radius: 50px;
+    border: solid #000 2px;
+    box-shadow: #000 15px 15px 20px 0px;
+    }
+    section#About .container .content{
+        background-color: var(--FontColorGold);
+        height: 18vw;
+        width: 50vw;
+        border-bottom-right-radius: 12vw;
+        border-top-left-radius: 12vw;
+        padding: 2vw;
+        text-align: center;
+        border: solid transparent 0.5vw;
+        box-shadow: rgba(0, 0, 0, 0.753) 15px 15px 20px 0px;
+    }
+    section#About .container .content p{
+        font-size: 2vw;
+    }
+    
     /* breakpoint at 1000px: */
 @media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 9vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
     #logo{
         left: 1px;
         z-index: 2;
@@ -462,7 +520,7 @@ section#fetured .left.active{
             background-image: url(../assts/herobg.png);
             background-size: cover;
             background-repeat: no-repeat;
-            background-attachment: scroll;
+            background-attachment:fixed;
             background-blend-mode: color-burn;
             background-color: rgba(0, 0, 0, 0.65)  ;
             align-items: center;
@@ -485,7 +543,32 @@ section#fetured .left.active{
             font-size: 3vw;
             text-align: center;
         }
-        /* SECTION-Featured*/   
+        /* SECTION-about*/   
+        section#About {
+            height: 170vw;
+        }
+        section#About .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 85vw;
+            height: 75vw;
+            flex-direction: column;
+        }
+        section#About .container#doctor-container{
+         
+            flex-direction: column-reverse;
+        }
+        section#About .container .content {
+            height: 25vw;
+            width: 71vw;
+        }
+        section#About .container .img {
+            --size: 35vw;
+        }
+        section#About .container .content p {
+            font-size: 3vw;
+        }
     }
         /* breakpoint at 800px: */
 @media screen and (max-width: 800px) {
