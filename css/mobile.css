@@ -120,6 +120,7 @@
     section#About .container#doctor-container{     
         flex-direction: column-reverse;
     }
+   
     section#About .container .content {
         height: 36vw;
         width: 82vw;

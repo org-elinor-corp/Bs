@@ -400,7 +400,7 @@ section#fetured .left.active{
     } 
     .review-container .img{
         background-color: #000;
-        background-image: url(../assts/reviewpic_1.jpeg);
+        background-image: url(../assts/pavangokul.jpeg);
         background-size: cover;
         background-position: center;
     }
@@ -457,6 +457,9 @@ section#fetured .left.active{
         border-radius: 50px;
     border: solid #000 2px;
     box-shadow: #000 15px 15px 20px 0px;
+    }
+    section#About .container#doctor-container .img {
+        background-image: url(../assts/Neus\ mondmasker-min.jpeg);
     }
     section#About .container .content{
         background-color: var(--FontColorGold);
