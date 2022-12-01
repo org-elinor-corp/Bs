@@ -12,7 +12,7 @@ window.addEventListener('scroll',function(){
       
    })
 function ShowMenu(){     
-        document.getElementById('main').style.top = (document.getElementById('main').style.top  == '-150%') ? '20px' : '-150%';
+        document.getElementById('main').style.top = (document.getElementById('main').style.top  == '-150%') ? '52px' : '-150%';
    }
 
    var slider=document.getElementById("review-silde");

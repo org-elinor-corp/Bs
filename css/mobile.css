@@ -4,7 +4,10 @@
         /* SECTION-ONE */
         
         
-    section#fetured{ display:none;}
+        .right .line {
+            position: relative;
+            left: -6vw;
+        }
        
     /* headder */
     #headder{
@@ -52,6 +55,7 @@
         background-blend-mode: color-burn;
         background-color: rgba(0, 0, 0, 0.65)  ;
         align-items: center;
+        padding-left: 0px;
     }
        section#hero .left h3{
            text-align: center;
@@ -168,7 +172,10 @@
         float: right;
         height: 0px;
     }
-    
+    section#contact #map{
+        background-color: #bebebe;
+        height: 78%;
+    }
     
     /*======================================================*/
     .review-box {

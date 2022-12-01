@@ -44,6 +44,11 @@ h3{
     animation-name: heroani1;
     animation-duration: 1.4s;
 }
+.centerXY{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*============================================== headder =================================*/
 a , menu{color: #fff;
     animation-name: shine;
@@ -277,9 +282,6 @@ section#fetured .right{
     transform:skewX(-19.5deg);
     overflow: hidden;
     box-shadow:rgba(255, 187, 0, 0.515) 15px 15px 20px -5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .right .img{
     height:200%;
@@ -290,9 +292,7 @@ section#fetured .right{
     background-position: center;
     background-position-y: bottom;
     background-color:rgba(0, 0, 0, 0.598);
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+
     --hover:none;
     cursor: pointer;
 }
@@ -336,10 +336,7 @@ section#fetured .left.active{
         padding-bottom: 3vw;
     }
     section#testomonial .slidebutton{
-        display: flex;
         flex-direction:column;
-        align-items: center;
-        justify-content:center;
         color: #D6D6E7;
         position: relative;
         top:8vw;
@@ -350,10 +347,7 @@ section#fetured .left.active{
     }
     .midblock{
         width: 86vw;
-        display: flex;
         flex-direction:column;
-        align-items: center;
-        justify-content:center;
     }
     section#testomonial h2{
         position: relative;
@@ -381,12 +375,9 @@ section#fetured .left.active{
     .review-container .review-slider-box{
     width: 83vw;
     height: 100%;
-    display: flex;
     padding-left: 2vw;
     padding-right: 2vw;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     }
     .review-container .review-slider-box .img{
         background-color: #D6D6E7;
@@ -407,11 +398,8 @@ section#fetured .left.active{
     .review-box{
         width: 63vw;
         height: 32vw;
-       display: flex;
        flex-direction: column;
        padding: 3vw;
-       align-items:center;
-       justify-content:center;
        text-align: center;
        font-size:2.5vw;
        color:var(--FontColorWhite);
@@ -483,7 +471,7 @@ section#fetured .left.active{
     section#contact h1{
         color:black;
         text-align:  center;
-        margin-block-start: 2vw;
+        padding-top: 2vw;
         margin-block-end: 2vw;
     }
     section#contact .icon{
@@ -492,15 +480,12 @@ section#fetured .left.active{
     height: var(--size);
     width: var(--size);
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 4vw;
     color: #00566d;
     }
     section#contact #map{
-        background-color:  #bebebe;
-        height:80%;
+        background-color: #bebebe;
+        height: 59%;
     }
     section#contact #icon-container{
         position: relative;
