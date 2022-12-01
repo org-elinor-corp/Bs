@@ -31,9 +31,7 @@ h2{
     font-size: 3vw;
     color:var(--FontColorWhite);
     margin-block-end: 0px;
-    margin-block-start: 0px;
-    
-  
+    margin-block-start: 0px; 
 }
 h3{
     font-size: 2.5vw;
@@ -51,8 +49,6 @@ a , menu{color: #fff;
     animation-name: shine;
     animation-duration: 1s;
     animation-timing-function: steps(500);
-    transition: 1s;
-    animation-fill-mode: both;
 }
 main{
     width: max-content;
@@ -60,12 +56,7 @@ main{
     align-items: center;
     justify-content: flex-start;
     font-size: 2vw;   
-    font-weight: lighter;
-    animation-name: shine;
-    animation-duration: 1s;
-    animation-timing-function: steps(500);
-    transition: 1s;
-    
+    font-weight: lighter;    
 }
 main menu:hover{
         cursor: pointer;
@@ -156,12 +147,14 @@ section#hero .left{
         transform: translateX(0);
     }
 }
+@media only screen and (min-width:100px) {
+    
+
 section#hero .right{
     height: 100%;
     width: 50%;
     background-image: url(../assts/herobg.png);
     background-repeat: no-repeat;
-    transition: 1s;
     --dist:1000px;
     animation-name: heroani1;
     animation-duration: 0.7s;
@@ -171,6 +164,7 @@ section#hero .right{
     animation-timing-function:ease-in-out;
     animation-fill-mode:both;
     
+}
 }
 /* button CSS */
 .button-30 {
@@ -431,14 +425,14 @@ section#fetured .left.active{
     section#About{
        
         width: 100vw;
+        height:100vw;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
         background-image:url(../assts/Bslogo\ copy.svg);
-        height: 100vw;
         background-size: 10em;
-        background-repeat:round;
+        background-repeat:repeat;
     background-attachment:fixed;
     background-blend-mode: color-burn;
     background-color: rgba(3, 29, 53, 0.418);
@@ -472,8 +466,7 @@ section#fetured .left.active{
         border-top-left-radius: 12vw;
         padding: 2vw;
         text-align: center;
-        border: solid transparent 0.5vw;
-        box-shadow: rgba(0, 0, 0, 0.753) 15px 15px 20px 0px;
+        
     }
     section#About .container .content p{
         font-size: 2vw;

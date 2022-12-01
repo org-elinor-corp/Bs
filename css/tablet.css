@@ -71,11 +71,12 @@
         /* SECTION-about*/   
         section#About {
             height: 170vw;
+            justify-content: space-around;
         }
         section#About .container {
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-around;
             width: 85vw;
             height: 75vw;
             flex-direction: column;
