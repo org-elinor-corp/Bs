@@ -502,6 +502,8 @@ section#fetured .left.active{
     section#contact #icon-container{
         position: relative;
         top: -5vw;
+        display: flex;
+        justify-content: space-evenly;
       
     }
     section#contact .icon-box{
