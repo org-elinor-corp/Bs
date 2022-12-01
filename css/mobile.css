@@ -35,7 +35,8 @@
        position: relative;
        left: 9vw;
        top: 9vw;
-   }
+       transform: translate(0,0);
+    }
    section#fetured .right::before
    {
        content: 'Fetured';
