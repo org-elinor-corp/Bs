@@ -518,3 +518,12 @@ section#fetured .left.active{
     section#contact #bottom {
         background: #fff;
     }
+
+    
+.bottom {
+    background-color: black;
+    padding: 2VW;
+}
+.text-light {
+    color: #f8f9fa!important;
+}
