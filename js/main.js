@@ -1,6 +1,5 @@
 window.addEventListener('scroll',function(){
    var scro=window.scrollY;
-      
       if (scro >= 200){
          this.document.getElementById('headder').className='active';
          this.document.getElementById('logo').classList="active";
@@ -10,8 +9,6 @@ window.addEventListener('scroll',function(){
          this.document.getElementById('headder').className='none';
          this.document.getElementById('logo').className='none';
       };
-      if (scro >= 470){
-      }
       
    })
 function ShowMenu(){     
@@ -32,8 +29,6 @@ function ShowMenu(){
    function ReviewSlideright(){
       if( slider.className=='two')
          slider.className='one';
-      
-      console.log("slide right"); 
-   }
+     }
    
    
