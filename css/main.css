@@ -10,23 +10,11 @@
     margin-block-start: 0;
     margin-block-end: 0;
     scroll-behavior: smooth;
-    scroll-snap-align:start;
 }
-html{
-    
-    height: -webkit-fill-available;
-    
-}
+
 body{
-  
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    scroll-behavior: smooth;
-   overflow: scroll;
-    background-color:var(--HeadderColor);
-    -webkit-overflow-scrolling: touch;
-    
+    background-color:var(--HeadderColor); 
 }
 
 *::-webkit-scrollbar{
@@ -533,7 +521,7 @@ section#fetured .left.active{
     
 
     /* breakpoint at 1000px: */
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     h1 {
         font-size: 9vw;
     }
@@ -577,7 +565,7 @@ section#fetured .left.active{
         section#hero .left{
             height: 100%;
             width: 100%;
-            background-image: url(../assts/herobg.png);
+            background-image: url(../assts/herobg-min.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment:fixed;
@@ -629,7 +617,7 @@ section#fetured .left.active{
         section#About .container .content p {
             font-size: 3vw;
         }
-    }/*contact*/
+    /*contact*/
    section#contact{
     height:100vh;
     background-color:#fff;
@@ -671,62 +659,5 @@ section#contact .icon-box{
 section#contact #bottom {
     background: #fff;
 }
-
-        /* breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-     /* SECTION-ONE */
-     #headder{
-     padding-left: 1px;
-     padding-bottom: 3vh;
-     padding-top: 3vh;
-     }
-     main {
-        font-size: 11vw;
-    }
-    
-    section#hero .left h3{
-        text-align: center;
-        font-size: 6vw;
-    }
-    section#hero .left h1{
-        font-size: 10vw;
-        text-align: center;
-    }
-    section#hero .left h2{
-        font-size: 5vw;
-        text-align: center;
-    }
-    section#fetured .left{
-        display: none;
-    }
-    section#fetured{
-        align-items: center;
-        height: 90vw;
-        padding-left: 2vw;
-        padding-bottom: 8vw;
-    }
-    section#fetured .right{
-        width: 87%;
-        position: relative;
-        left: 9vw;
-        top: 9vw;
-    }
-    section#fetured .right::before
-    {
-        content: 'Fetured';
-        font-size: 9vw;
-        color: #D6D6E7;
-        position: absolute;
-        left: 26vw;;
-        z-index: -2;
-        top: -8vw;
-    }
-    .right .line .but-box{
-        width: 50%;
-        height: 100%;
-        padding: 2vw;
-        padding-left: 0px;
-        padding-right: 9vw;
-    }
-    
 }
+       
