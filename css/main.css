@@ -4,7 +4,9 @@
     --FontColorGold:#dba858;
     --FontColorWhite:#fff;
     --HeadderColor:#00566d;
-    font-family: 'Playfair Display', serif; 
+	--gradient:linear-gradient(45deg,rgb(255, 196, 0),#fff);
+
+  
     text-decoration: none;
     background-repeat: no-repeat;
     margin-block-start: 0;
@@ -464,9 +466,8 @@ section#fetured .left.active{
     }
     /*contact*/
    section#contact{
-        height:100vh;
+        height:45vw;
         background-color:#fff;
-        border-bottom: solid 2px #000;
     }
     section#contact h1{
         color:black;
@@ -511,4 +512,36 @@ section#fetured .left.active{
 }
 .text-light {
     color: #f8f9fa!important;
+}
+.newsletter
+{
+    font-family: 'Nirmala UI';
+  	background-color: rgb(196, 196, 196);
+      font-size: 1.5vw;
+      height: 9vw;
+}
+.newsletter .container{
+    width: 100%;
+    font-family: 'Nirmala UI';
+}
+.text-area{
+    background-color: #fff;
+    width: 65%;
+    height:48px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.space-between{
+    justify-content: space-between;
+}
+.subscribe{
+    width: 40%;
+    text-align: center;
+}
+.input-group{
+    width: 60%;
+}
+.input-group .button-30{
+    width: 20%;
 }
