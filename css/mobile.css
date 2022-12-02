@@ -185,3 +185,36 @@
     section#testomonial h2 {
         font-size: 9vw;
     }
+    /*================================*/
+    .newsletter
+    {
+        font-size: 3vw;
+        height: max-content;
+        padding: 3vw;
+    }
+    .newsletter .container{
+        width: 100%;
+        font-family: 'Nirmala UI';
+        flex-direction: column   ;
+        
+    }
+    .text-area{
+        background-color: #fff;
+        width: 55%;
+        height:48px;
+        border: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .space-between{
+        justify-content: space-between;
+    }
+    .subscribe, .input-group{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2vw;
+    }
+   
+    .input-group .button-30{
+        width: 30%;
+    }

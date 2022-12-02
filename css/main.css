@@ -531,6 +531,7 @@ section#fetured .left.active{
     border: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    padding-left: 2vw;
 }
 .space-between{
     justify-content: space-between;
