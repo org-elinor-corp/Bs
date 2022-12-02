@@ -126,7 +126,7 @@
     }
    
     section#About .container .content {
-        height: 36vw;
+        height: max-content;
         width: 82vw;
         padding: 3vw;
     }
@@ -153,6 +153,8 @@
         --size: 19vw;
         height: var(--size);
         width: var(--size);
+        font-size: 8vw;
+        color: #000;
     }
     
     section#contact #icon-container{
@@ -205,6 +207,7 @@
         border: none;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
+        font-size: 3.5vw;
     }
     .space-between{
         justify-content: space-between;
@@ -213,8 +216,11 @@
         width: 100%;
         text-align: center;
         padding-bottom: 2vw;
+        padding-bottom: 4vw;
+        font-size: 4vw;
     }
    
     .input-group .button-30{
         width: 30%;
-    }
+        font-size:3.5vw;
+    }   

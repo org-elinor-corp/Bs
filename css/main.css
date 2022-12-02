@@ -125,6 +125,7 @@ main menu:hover{
 section{
     height:100vh;
     scroll-snap-type: y mandatory;
+    font-family: system-ui;
 }
 section#hero{
     display: flex;
@@ -343,10 +344,9 @@ section#fetured .left.active{
         position: relative;
         top:8vw;
         cursor: pointer;
+        font-size: 8vw;
     }
-    section#testomonial .slidebutton img{
-        height:10vw
-    }
+    
     .midblock{
         width: 86vw;
         flex-direction:column;
@@ -476,13 +476,13 @@ section#fetured .left.active{
         margin-block-end: 2vw;
     }
     section#contact .icon{
-    background-color:var(--FontColorGold);
+    background-color:#000;
     --size: 9vw;
     height: var(--size);
     width: var(--size);
     border-radius: 100%;
     font-size: 4vw;
-    color: #00566d;
+    color: var(--FontColorGold);
     }
     section#contact #map{
         background-color: #bebebe;
@@ -532,6 +532,7 @@ section#fetured .left.active{
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     padding-left: 2vw;
+    font-size: 1.5vw;
 }
 .space-between{
     justify-content: space-between;
