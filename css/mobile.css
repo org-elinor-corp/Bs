@@ -224,3 +224,15 @@
         width: 30%;
         font-size:3.5vw;
     }   
+    #footer {
+        font-size: 8vw;
+        height: 32vw;
+    }
+    .foot-icon {
+        font-size: 7vw;
+        padding: 3vw;
+        width: 61vw;
+    }
+    #footer p, p a {
+        font-size: 4vw;
+    }
