@@ -546,7 +546,7 @@ section#fetured .left.active{
 .input-group .button-30{
     width: 20%;
 }
-/*========================================*/
+/*==================FOOTER======================*/
 #footer{
     font-weight: lighter;
     font-size: 5vw;
@@ -566,4 +566,32 @@ section#fetured .left.active{
     padding: 2vw;
     justify-content: space-evenly;
     width: 39vw;
+}
+/*====================GALLERY====================*/
+#Gallery{
+    background-color:#fff ;
+     text-align:center;
+    height: max-content;
+    padding: 5vw;
+}
+#Gallery h2{
+    color:#000;
+}
+#Gallery .column{
+    width: 18vw;
+    height: 56vw;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Gallery .square{
+    background-color: rgb(218, 218, 218);
+    height: 15vw;
+    width: 15vw;
+}
+#Gallery .rectangle{
+    background-color: rgb(218, 218, 218);
+    height: 33vw;
+    width: 16vw;
 }
