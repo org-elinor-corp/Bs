@@ -567,3 +567,22 @@ section#fetured .left.active{
     justify-content: space-evenly;
     width: 39vw;
 }
+/*=====================service===================*/
+#service{
+    background-color: #000000;
+    text-align: center;
+}
+#service h2 {
+    font-size: 4vw;
+}
+.service-container {
+    /* background-color: #00566d00; */
+    justify-content: space-evenly;
+    height: 39vw;
+}
+.frame{
+    background-color: #dba858;
+    height: 30vw;
+    width: 26vw;
+    box-shadow: #fff 1vw 1vw;
+}
